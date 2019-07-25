@@ -1,13 +1,15 @@
 
  $(document).ready(function() {
-    $("#a").click(function() {
+    $("#a , #d").click(function() {
+        $(".walrus-hidden").toggle();
       $("#d").toggle();
     
     
     });
   });
   $(document).ready(function() {
-    $("#b").click(function() {
+    $("#b, #e").click(function() {
+        $(".walrus-hidden").toggle();
       $("#e").toggle();
    
      
@@ -15,12 +17,19 @@
     });
   });
   $(document).ready(function() {
-    $("#c").click(function() {
+    $("#c, #f").click(function() {
+        $(".walrus-hidden").toggle();
       $("#f").toggle();
     
     
     });
   });
+//   $(document).ready(function() {
+//       $("#a").click(function() {
+//         $(".walrus-showing").toggle();
+//         $(".walrus-hidden").toggle();
+//       });
+//     });
   
 
 
