@@ -1,7 +1,7 @@
 
  $(document).ready(function() {
     $("#a , #d").click(function() {
-        $(".walrus-hidden").toggle();
+        $(".walrus-hidden1").toggle();
       $("#d").toggle();
     
     
@@ -9,7 +9,7 @@
   });
   $(document).ready(function() {
     $("#b, #e").click(function() {
-        $(".walrus-hidden").toggle();
+        $(".walrus-hidden2").toggle();
       $("#e").toggle();
    
      
@@ -18,7 +18,7 @@
   });
   $(document).ready(function() {
     $("#c, #f").click(function() {
-        $(".walrus-hidden").toggle();
+        $(".walrus-hidden3").toggle();
       $("#f").toggle();
     
     
