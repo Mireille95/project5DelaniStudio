@@ -51,16 +51,16 @@
        margin-right: none;
 
     }
-    .row1 >h3{
-       
-            margin-top: 5%;
-    
+    #one >h3{
+       margin-right: 10%;
+     
         color:white;
         text-align: center;
         font-size:25px;
         font-family: Calibri, sans-serif;
     }
     #one >p{
+        margin-top: 2%;
         color:white;
         text-align: center;
         font-size:19px;
@@ -72,7 +72,7 @@
     justify-content: space-around;
     margin-top: 5%;
     margin-right: 5%;
-    margin-left: 11%;
+    margin-left: 18%;
 }
 .do >h5{
 color:black;
