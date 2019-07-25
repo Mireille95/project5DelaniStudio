@@ -63,22 +63,22 @@
                     <h5>WHAT WE DO</h5>
                 <div class="row2">
                     <div class="col-md-4">
-                        <img src="img/design_icon.png">
+                        <img src="img/design_icon.png" class="walrus-hidden">
                         <br>
-                        <h4>Design</h4>
-                        <p>Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                        <h4> Design <span class="clickable"></span></h4>
+                        <p class="walrus-showing" >Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="img/dev_icon.png">
+                        <img src="img/dev_icon.png" class="walrus-hidden">
                         <br>
-                        <h4>Development</h4>
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                        <h4>Development <span class="clickable"></span></h4>
+                        <p class="walrus-showing" >All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="img/product_icon.png">
+                        <img src="img/product_icon.png" class="walrus-hidden">
                         <br>
-                        <h4>Product Management</h4>
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+                        <h4>Product Management <span class="clickable"></span></h4>
+                        <p class="walrus-showing" >Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
                     </div>
                 </div>
                 </div>
@@ -128,10 +128,10 @@
     <div class="row5">
             <div class="col-md-6">
                 <form id="contact-form" method="post" action="">
-                <input name="name" type="text" class="form-control" style="background-color: transparent" placeholder="Name" required>         
+                <input name="name" type="text" class="form-control" style="background-color: transparent" placeholder="Name" id="name" required>         
                 </div>
             <div class="col-md-6">
-                    <input name="email" type="email" class="form-control" style="background-color: transparent" placeholder="Email" required>         
+                    <input name="email" type="email" class="form-control" style="background-color: transparent" placeholder="Email" id="email" required>         
                 </div>        
     </div>   
     <br>
@@ -140,7 +140,7 @@
 
     <div class="row8">
             <div class="col-md-12">
-              <textarea name="message" class="form-control" style="background-color: transparent" placeholder="Your Message" rows="10" required> </textarea> <br>     
+              <textarea name="message" class="form-control" style="background-color: transparent" placeholder="Your Message" rows="10"id="message" required> </textarea> <br>     
            
                 </div>
                 <button> <input type="submit" class="btn btn-success" id="green" value="Submit"></button>
@@ -187,24 +187,12 @@
                         <h7>DELANI STUDIO</h7>
                         <p>2019</p>
                     
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+
+      <script src="js/bootstrap.min.js"></script>
 </div>
-    
-    
-                   
    
-
-
-</div>
-
-
-
-
-
-
-
-
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
