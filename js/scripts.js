@@ -1,16 +1,27 @@
 
  $(document).ready(function() {
-    $("img").click(function() {
-      $("p").show();
+    $("#a").click(function() {
+      $("#d").toggle();
+    
     
     });
   });
   $(document).ready(function() {
-      $(".clickable").click(function() {
-        $(".walrus-showing").toggle();
-        $(".walrus-hidden").toggle();
-      });
+    $("#b").click(function() {
+      $("#e").toggle();
+   
+     
+    
     });
+  });
+  $(document).ready(function() {
+    $("#c").click(function() {
+      $("#f").toggle();
+    
+    
+    });
+  });
+  
 
 
     // $(document).ready(function() {

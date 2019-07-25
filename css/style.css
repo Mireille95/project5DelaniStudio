@@ -16,7 +16,7 @@
     margin-top:28%;
   }
   .main{
-     
+     width:100%;
       text-align:center;
       color:white;
       font-family:times;
@@ -73,7 +73,7 @@
     justify-content: space-between;
     margin-top: 5%;
     margin-right: 5%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .do >h5{
 color:black;
