@@ -1,11 +1,11 @@
-/* *{
+*{
     margin:0;
     padding:0;
      
-  } */
+  }
   header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgb(0,0,0,0.5)), url('/home/wecode/Documents/project5DelaniStudio/h_img.jpg');
-    height:150vh;
+    height:120vh;
     width:100%;
     background-size:cover;
     background-position: center;
@@ -28,7 +28,7 @@
     h2{
         margin-top: 1%;
         font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: Calibri, sans-serif;
         margin-left: 40%;
     }
     #about > p{
@@ -36,31 +36,134 @@
         margin-top: 3%;
         width: 920px;
         Font-size:17px;
-        font-family:'Times New Roman', Times, serif; 
+        font-family: Calibri, sans-serif;
         text-align: center;
         margin-left: 10%;
         
         
     }
-    #services{
+    .row1{
         background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgb(0,0,0,0.5)), url('/home/wecode/Documents/project5DelaniStudio/img/s_image.jpg');
         height:250px;
-        width:100%;
-        /* background-size:cover; */
+        width:105%;
+        background-size:cover;
        margin-left:none;
        margin-right: none;
 
     }
-    .services >h2{
+    .row1 >h3{
+       
+            margin-top: 5%;
+    
         color:white;
-        margin-top: 5%;
-        font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
         text-align: center;
-
+        font-size:25px;
+        font-family: Calibri, sans-serif;
     }
- 
+    #one >p{
+        color:white;
+        text-align: center;
+        font-size:19px;
+        font-family:  Calibri, sans-serif;
+    }
 
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 11%;
+}
+.do >h5{
+color:black;
+text-align: center;
+font-size: 25px;
+font-family: Calibri, sans-serif;
+}
+.porto > h5{
+    color:black;
+text-align: center;
+font-size: 25px;
+font-family: Calibri, sans-serif;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 7%;
+    margin-left: 7%;
+  
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 7%;
+    margin-left: 7%;
+  
+}
+footer{
+background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgb(0,0,0,0.5)), url('/home/wecode/Documents/project5DelaniStudio/img/c_image.jpg');
+height:80vh;
+    width:105%;
+    background-size:cover;
+    background-position: center;
+margin-left:none;
+margin-right: none;
+
+}
+.footer >h6{
+    margin-top: 5%;
+    color:white;
+    text-align: center;
+    font-size:25px;
+    font-family:  Calibri, sans-serif;
+}
+ 
+.row6{
+    display: flex;
+    justify-content: space-around;
+  
+    margin-left: 30%; 
+     margin-right: 30%;
+  
+}
+
+/* .col-md-6{
+    width:60px;
+   
+} */
+/* .form-control{
+    width:600px;
+    background: transparent;
+    border: 1px solid gray;;
+    outline: none;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+} */
+/* input{
+    height:45px;
+
+}*/
+button{
+    background-color: green;
+    columns: right;
+} 
+.row5{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.row8{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.end{
+    
+    color:black;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
