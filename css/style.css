@@ -56,11 +56,11 @@
          transition: -5s ease;
          background: rgba(233, 101, 12, 0.9);
     }  */
-    .col-md-3 >img:hover{
+    /* .col-md-3 >img:hover{
      
      opacity:0.5;
 
-    }
+    } */
    .content{
        position: absolute;
        top:40%;
