@@ -36,16 +36,16 @@
 /*----------------for the first pic-------------*/
 $('.content').hide();
 $('#nu').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#nu').hover(function(){
   $(this).stop().animate({
-    opacity:.3},50);
+    opacity:.4},200);
   $('.content').fadeIn();
 },
 function(){
   $(this).stop().animate({
-    opacity:0.3},50);
+    opacity:1},500);
   $('.content').fadeOut();
 });
 
@@ -53,14 +53,14 @@ function(){
 
 $('.content1').hide();
 $('#na').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#na').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content1').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content1').fadeOut();
 });
 
@@ -68,14 +68,14 @@ function(){
 
 $('.content2').hide();
 $('#ni').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#ni').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content2').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content2').fadeOut();
 });
 
@@ -83,14 +83,14 @@ function(){
 
 $('.content3').hide();
 $('#ne').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#ne').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content3').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content3').fadeOut();
 });
 
@@ -98,14 +98,14 @@ function(){
 
 $('.content4').hide();
 $('#no').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#no').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content4').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content4').fadeOut();
 });
 
@@ -113,14 +113,14 @@ function(){
 
 $('.content5').hide();
 $('#noo').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#noo').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content5').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content5').fadeOut();
 });
 
@@ -128,28 +128,28 @@ function(){
 
 $('.content6').hide();
 $('#nee').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#nee').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content6').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content6').fadeOut();
 });
 /*-----------------------second image-----------------*/
 
 $('.content7').hide();
 $('#nuu').animate({
-  opacity:0.4
+  opacity:1
 });
 $('#nuu').hover(function(){
-  $(this).stop().animate({opacity:.4},200);
+  $(this).stop().animate({  opacity:.4},200);
   $('.content7').fadeIn();
 },
 function(){
-  $(this).stop().animate({opacity:.1},400);
+  $(this).stop().animate({  opacity:1},500);
   $('.content7').fadeOut();
 });
 
