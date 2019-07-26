@@ -28,6 +28,6 @@ My project it is about designing the same thing as delani studio has and give th
 + location: kigali/kicukiro
 
 # license and copyright
-**{Determine the license under which this application can be used.}**
-Copyright (c) 2019 Delani Studio **{master company}**
+
+Copyright (c) 2019 Delani Studio 
   
