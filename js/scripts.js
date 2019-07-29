@@ -17,7 +17,7 @@
   });
   $(document).ready(function() {
     $("#c, #f").click(function() {
-        $(".walrus-hidden3").toggle();
+        $(".walrus-hidden3").toggle(); 
       $("#f").toggle();
     
     
@@ -25,10 +25,19 @@
   });
 
   /*---------------- about form ----------------*/
-
-  var email =document.getElementById("email");
- var lname =document.getElementById("name");
- var message =document.getElementById("message");
+$(".form").submit(function(event){
+  var lemail =document.getElementById("email");
+  var lname =document.getElementById("name");
+  var lmessage =document.getElementById("message");
+  if (lname == "" || lemail == "" || lmessage ==""){
+    alert("you didnt fill the form");
+  }
+  else {
+    alert("you did it : "  +lname.value  +", thanks for your comments");
+  }
+  event.preventDefault();
+});
+  
  console.log(name);
  document.getElementById("green").addEventListener("click",function(){
    alert("you did it : "  +lname.value  +", thanks for your comments");
